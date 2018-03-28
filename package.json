@@ -1,0 +1,42 @@
+{
+  "name": "typescript-course",
+  "version": "1.0.0",
+  "description": "API Desenvolvida utilizando TS, NODE, ES6, Postgres e Sequelize",
+  "main": "server/server.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/faelribeiro22/typescript-course.git"
+  },
+  "keywords": [
+    "API",
+    "TypeScript",
+    "Node",
+    "ES6"
+  ],
+  "author": "Rafael Ribeiro de Sousa <faelribeirodesousa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faelribeiro22/typescript-course/issues"
+  },
+  "homepage": "https://github.com/faelribeiro22/typescript-course#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1",
+    "sequelize-cli": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/express": "^4.11.1",
+    "@types/morgan": "^1.7.35",
+    "@types/sequelize": "^4.27.12",
+    "sequelize": "^4.37.4",
+    "ts-node": "^5.0.1"
+  }
+}
