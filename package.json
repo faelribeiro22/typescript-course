@@ -4,8 +4,8 @@
   "description": "API Desenvolvida utilizando TS, NODE, ES6, Postgres e Sequelize",
   "main": "server/server.ts",
   "scripts": {
-    "build": "node ./build/server.js",
-    "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "build": "NODE_ENV=development node ./build/server.js",
+    "start": "NODE_ENV=development ./node_modules/.bin/ts-node ./server/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
