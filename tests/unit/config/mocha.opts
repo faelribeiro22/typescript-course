@@ -1,0 +1,4 @@
+--require ./helpers.js
+--reporter spec
+--warch-extensions js
+--slow 5000

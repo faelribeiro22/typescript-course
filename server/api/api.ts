@@ -2,7 +2,7 @@ import * as express from 'express';
 import { Application } from 'express';
 import * as morgan from 'morgan';
 import * as bodyParser from 'body-parser';
-import  Routes  from '../routes/routes'
+import  Routes  from './routes/routes'
 import { errorHandlerApi } from './errorHandlerApi';
 
 class Api {
